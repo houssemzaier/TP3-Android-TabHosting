@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewBienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="47dp"
+        android:text="@string/Bienvenue"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:context=".Gestion" />
+
+    <TextView
+        android:id="@+id/textViewInvite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewBienvenue"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dp"
+        android:text="@string/Invitier" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_gestion_contacts"
+        android:icon="@drawable/ic_menu_contact"
+        android:orderInCategory="1"
+        android:title="@string/menu_gestion_contacts">
+        <menu>
+            <item
+                android:icon="@android:drawable/btn_plus"
+                android:id="@+id/item_gestion_add_contact"
+                android:title="Add contact"/>
+            <item
+                android:id="@+id/item_gestion_supprimer_contact"
+                android:title="delete contact"/>
+            <item
+                android:id="@+id/item_gestion_modifier_contact"
+                android:title="modifier contact"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_gestion_appels"
+        android:icon="@drawable/ic_menu_appels"
+        android:orderInCategory="2"
+        android:title="@string/menu_gestion_appels"/>
+
+</menu>
